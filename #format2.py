@@ -12,12 +12,12 @@ print("Task #1")
 #Capitalize first letters
 first_name = fname.title()
 last_name = lname.title()
-print(first_name + ", " + last_name)
+print(first_name + " " + last_name)
 
 #Lowercase first letter, uppercase the rest
 first_name = fname[0].lower() + fname[1:].upper()
 last_name = lname[0].lower() + lname[1:].upper()
-print(first_name + ", " + last_name)
+print(first_name + " " + last_name)
 
 print("Task #2")
 
@@ -32,3 +32,21 @@ encrypted = upper_phrase.replace("A", "1").replace("E", "2").replace("I", "3").r
 print(encrypted)
 
 print(phrase)  #To show the original is unchanged
+
+print("Task #3")
+#finding length and printing it
+phraselength = len(phrase)-1
+print("The phrase length is ", phraselength)
+piecesize = phraselength // 3
+
+#Setting the pieces
+first_piece = phrase[:piecesize]
+middle_piece = phrase[piecesize:piecesize*2]
+last_piece = phrase[piecesize*2:]
+
+#Print the pieces
+print(middle_piece)
+print(last_piece)
+print(first_piece)
+
+print("Task #4")
