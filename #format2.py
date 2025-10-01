@@ -50,3 +50,26 @@ print(last_piece)
 print(first_piece)
 
 print("Task #4")
+#Prompt for a 5-digit number
+num = input("Enter a 5-digit number: ")
+
+#Convert to int and add
+d1 = int(num[0])
+d2 = int(num[1])
+d3 = int(num[2])
+d4 = int(num[3])
+d5 = int(num[4])
+
+total = d1 + d2 + d3 + d4 + d5
+
+#Print the sum
+print(f"{d1}+{d2}+{d3}+{d4}+{d5} = {total}")
+
+print("Task #5")
+t5phrase = "Why, you stuck-up half-witted scruffy-looking nerf herder!"
+
+#Every other character from start to end
+print(phrase[::2])
+
+#Every other character from end to start
+print(phrase[::-2])
