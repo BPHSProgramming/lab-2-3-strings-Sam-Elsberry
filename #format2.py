@@ -2,6 +2,8 @@
 
 flname = input("Enter your first and last name with a single space separating the two. Do not add leading or trailing characters or spaces: ")
 
+
+#Please use string slicing for this as per the instructions. not the split function.
 fname = flname.split()[0]
 lname = flname.split()[1]
 
@@ -22,6 +24,7 @@ phrase = "Once you start down the dark path, forever will it dominate your desti
 upper_phrase = phrase.upper()
 print(upper_phrase)
 
+# you can compine these together string.replace().replace() etc...
 encrypted = upper_phrase.replace("A", "1")
 encrypted = encrypted.replace("E", "2")
 encrypted = encrypted.replace("I", "3")
