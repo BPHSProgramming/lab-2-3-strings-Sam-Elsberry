@@ -73,3 +73,27 @@ print(phrase[::2])
 
 #Every other character from end to start
 print(phrase[::-2])
+
+print("Task #6")
+#Get current date and save + print it
+from datetime import date
+
+today = date.today()
+
+today = today.strftime("%Y,%B,%d")
+
+print(f"The date today is {today}")
+
+#Slice out year, month, and day
+year = today[:4]
+
+#Find commas to slice correctly
+first_comma = today.find(',')
+second_comma = today.find(',', first_comma + 1)
+month = today[first_comma + 1:second_comma]
+
+#Day is everything after the second comma
+day = today[second_comma + 1:]
+
+#Print "creatively"
+print(f"Today is the {day} day of {month} in the glorious year {year}!")
