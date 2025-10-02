@@ -36,7 +36,6 @@ print(phrase)  #To show the original is unchanged
 print("Task #3")
 #finding length and printing it
 phraselength = len(phrase)-1
-print("The phrase length is ", phraselength)
 piecesize = phraselength // 3
 
 #Setting the pieces
