@@ -1,4 +1,5 @@
 #format2.3-sam-elsberry-25
+#nice job 18/18
 
 flname = input("Enter your first and last name with a single space separating the two. Do not add leading or trailing characters or spaces: ")
 
@@ -53,6 +54,7 @@ print("Task #4")
 num = input("Enter a 5-digit number: ")
 
 #Convert to int and add
+
 d1 = int(num[0])
 d2 = int(num[1])
 d3 = int(num[2])
